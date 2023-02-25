@@ -4,9 +4,9 @@
 class JiraTerminal < Formula
   desc "The application that can be used for personal usage to manage jira from terminal. " 
   homepage "https://github.com/amritghimire/jira-terminal"
-  url "https://github.com/amritghimire/jira-terminal/archive/refs/tags/v2.0.0.tar.gz"
-  sha256 "74b626520739f21c136ad1036d71f3f00940405c85c8488e0eabd512464efc2e"
-  version "2.0.0"
+  url "https://github.com/amritghimire/jira-terminal/archive/refs/tags/v2.1.0.tar.gz"
+  sha256 "3162d2d3c7e7ff78f966a208b690c904eee3f1bef3bc287455fb26b7746e8759"
+  version "2.1.0"
   depends_on "rust" => :build
 
   def install
