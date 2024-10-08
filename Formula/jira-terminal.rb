@@ -1,21 +1,21 @@
 class JiraTerminal < Formula
   desc "This is a command line application that can be used as a personal productivity tool for interacting with JIRA"
   homepage "https://github.com/amritghimire/jira-terminal"
-  version "2.3.0"
+  version "2.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/amritghimire/jira-terminal/releases/download/v2.3.0/jira-terminal-aarch64-apple-darwin.tar.xz"
-      sha256 "7568feff92b05e29b7eca824b573e2a241817cd59a90db38ab685c97d7160691"
+      url "https://github.com/amritghimire/jira-terminal/releases/download/v2.4.0/jira-terminal-aarch64-apple-darwin.tar.gz"
+      sha256 "d72dd6c4cef699932687b63ce65811cde2e4bb9a7b386d3150ef9cf8fca0f0d1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/amritghimire/jira-terminal/releases/download/v2.3.0/jira-terminal-x86_64-apple-darwin.tar.xz"
-      sha256 "bb37b2d3579d95a7f81d1211d45b3f1cb7ca9fedd8e7e9ee1d933544e7c8d41a"
+      url "https://github.com/amritghimire/jira-terminal/releases/download/v2.4.0/jira-terminal-x86_64-apple-darwin.tar.gz"
+      sha256 "b7e3af8d3104ac640d105fe4e58c1f88932da877db1cc3dabf9697ff11fe3a1c"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/amritghimire/jira-terminal/releases/download/v2.3.0/jira-terminal-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "97846d4657cb012fac1c34ced276fe39b6a0fa100fc0d50d83085175c066b87a"
+      url "https://github.com/amritghimire/jira-terminal/releases/download/v2.4.0/jira-terminal-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c38abd7c2c5876ce24b6794a7d272a3c5d047a218aab0469dc59675a12b849ce"
     end
   end
   license "AGPL-3.0-only"
